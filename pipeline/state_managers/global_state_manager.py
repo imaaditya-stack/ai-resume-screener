@@ -37,10 +37,10 @@ class GlobalStateManager:
         # Variables to store results for LLM analysis
         self.resumes_for_llm_analysis: List[str] = []
         self.pipeline_run_id = str(uuid.uuid4())
-        self.mandatory_screening_params_from_llm: MandatoryScreeningParams = []
-        self.optional_screening_params_from_llm: List[OptionalScreeningParamsGroup] = []
         self.distilled_job_description_from_llm: str = ""
         self.years_of_experience_from_llm: float = 2.0
+        self.reserved_points_for_mandatory_params: int = 60
+        self.reserved_points_for_optional_params: int = 40
 
     def __new__(cls, *args, **kwargs):
         if cls.__instance is None:

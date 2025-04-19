@@ -35,7 +35,9 @@ class MandatoryParamsMatcher(WorkflowUnit):
         state.passed = len(missing) == 0
 
         if state.passed:
-            state.mandatory_keywords_score = 60
+            state.mandatory_keywords_score = (
+                global_state.reserved_points_for_mandatory_params
+            )
         else:
             state.skip_pipeline_from_execution = True
             state.pipeline_skip_reason = "Mandatory Parameters not matched. The resume is missing required skills which are mandatory for the role."

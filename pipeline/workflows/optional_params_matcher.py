@@ -52,9 +52,13 @@ class OptionalParamsMatcher(WorkflowUnit):
         boosted_percentage = min(1.0, base_percentage * experience_factor)
 
         # Scale to get final score out of 40 points
-        normalized_score = boosted_percentage * 40
+        normalized_score = (
+            boosted_percentage * global_state.reserved_points_for_optional_params
+        )
         # Essential cap to ensure we never exceed 40 points
-        normalized_score = min(normalized_score, 40)
+        normalized_score = min(
+            normalized_score, global_state.reserved_points_for_optional_params
+        )
 
         # Update state with results
         state.optional_keywords_score = normalized_score
