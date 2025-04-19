@@ -27,7 +27,7 @@ htmlcov/
 chunk_store/
 pdf_processor_outputs/
 *.pdf
-*.txt
+
 *.csv
 *.zip
 *.docx
