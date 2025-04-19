@@ -1,0 +1,39 @@
+{
+  "candidates": [
+    {
+      "resume_id": 1,
+      "candidate_name": "Nitish",
+      "candidate_email": "not_found",
+      "candidate_phone": "not_found",
+      "technical_match_score": 8,
+      "experience_relevance_score": 7,
+      "standout_strength": "Strong background in Core Java and Spring Boot.",
+      "interview_focus_area": "Clarify work experience with specific JD requirements.",
+      "technical_match_reason": "Candidate has strong technical skills in Core Java, Hibernate, and Spring Boot, which are key technologies mentioned in the job description.",
+      "experience_relevance_reason": "Experience in developing enterprise-level applications and managing database operations aligns well with the job role.",
+      "confidence_score": 5,
+      "evidence": "Nitish has worked on projects involving core Java components and has experience in handling Spring Boot applications."
+    },
+    {
+      "resume_id": 2,
+      "candidate_name": "Manisha Gavhale",
+      "candidate_email": "manisha@example.com",
+      "candidate_phone": "1234567890",
+      "technical_match_score": 6,
+      "experience_relevance_score": 8,
+      "standout_strength": "Strong experience in developing knowledge portals and smart bazaar portals.",
+      "interview_focus_area": "Clarify technical skills related to Spring MVC and Hibernate.",
+      "technical_match_reason": "Candidate has relevant experience in developing enterprise-level applications, which is a significant aspect of the job description.",
+      "experience_relevance_reason": "Experience in managing user requirements and providing project updates aligns well with the job role.",
+      "confidence_score": 5,
+      "evidence": "Manisha has developed knowledge portals, smart bazaar portals, and managed reliance POS system which demonstrates her experience in developing complex applications."
+    }
+  ],
+  "comparative_insights": {
+    "strongest_technical": { "resume_id": 1, "reason": "Nitish scores higher on technical match due to his strong background in Spring Boot and Core Java." },
+    "quickest_onboarding": { "resume_id": 2, "reason": "Manisha has more relevant experience in developing enterprise-level applications, making her quicker to onboard." },
+    "best_problem_solver": { "resume_id": 1, "reason": "Nitish demonstrates a higher technical match score and experience relevance, indicating he is better at problem-solving." },
+    "most_relevant_experience": { "resume_id": 2, "reason": "Manisha has more relevant industry experience in developing portals and managing complex systems." },
+    "final_recommendation": { "resume_id": 2, "reason": "Manisha's extensive experience in building enterprise applications and her strong technical skills make her the best fit for this role." }
+  }
+}
