@@ -803,6 +803,17 @@ def main():
                         and result.extracted_working_exp
                         else "Unknown"
                     ),
+                    "Email Address": (
+                        result.extracted_email
+                        if hasattr(result, "extracted_email") and result.extracted_email
+                        else "Failed to extract email"
+                    ),
+                    "Contact Number": (
+                        result.extracted_contact
+                        if hasattr(result, "extracted_contact")
+                        and result.extracted_contact
+                        else "Failed to extract contact number"
+                    ),
                     "Matching Score": f"{result.score:.2f}/100",
                     "Core Competencies Matched": f"{', '.join(result.mandatory_keyword_matches)}",
                     "Additional Competencies Matched": optional_categories_str,

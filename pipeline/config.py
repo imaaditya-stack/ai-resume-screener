@@ -89,8 +89,14 @@ ROLE_MATCHING_DEFINITIONS = {
                 "name": "Java Ecosystem",
                 "weight": 10,
                 "terms": [
-                    "JPA",
+                    "JSP",
+                    "Servlets",
+                    "Spring Boot",
                     "Hibernate",
+                    "JPA",
+                    "JDBC",
+                    "Multithreading",
+                    "Synchronization",
                     "Maven",
                     "Gradle",
                     "JUnit",
@@ -100,13 +106,94 @@ ROLE_MATCHING_DEFINITIONS = {
                 ],
             },
             {
-                "name": "Cloud & DevOps",
+                "name": "Web Services & Protocols",
+                "weight": 9,
+                "terms": [
+                    "REST",
+                    "SOAP",
+                    "OpenSPML",
+                    "API",
+                    "Web Services",
+                    "HTTP",
+                    "XML",
+                    "JSON",
+                ],
+            },
+            {
+                "name": "Frontend & UI",
+                "weight": 7,
+                "terms": [
+                    "HTML",
+                    "CSS",
+                    "JavaScript",
+                    "jQuery",
+                    "TypeScript",
+                    "Angular",
+                    "React",
+                ],
+            },
+            {
+                "name": "Architecture Patterns",
                 "weight": 8,
+                "terms": [
+                    "MVC",
+                    "Architectural Patterns",
+                    "Design Patterns",
+                    "DDD",
+                    "CQRS",
+                    "Clean Architecture",
+                    "Hexagonal Architecture",
+                    "Code Review",
+                ],
+            },
+            {
+                "name": "Database Technologies",
+                "weight": 8,
+                "terms": [
+                    "SQL",
+                    "JDBC",
+                    "ORM",
+                    "Oracle",
+                    "PostgreSQL",
+                    "MySQL",
+                    "MongoDB",
+                    "NoSQL",
+                ],
+            },
+            {
+                "name": "DevOps & Version Control",
+                "weight": 8,
+                "terms": [
+                    "CI/CD",
+                    "Git",
+                    "SVN",
+                    "Branching",
+                    "Merging",
+                    "Docker",
+                    "Jenkins",
+                    "Continuous Integration",
+                    "Continuous Deployment",
+                ],
+            },
+            {
+                "name": "Performance & Quality",
+                "weight": 6,
+                "terms": [
+                    "Code Quality",
+                    "Code Reviews",
+                    "JVM Tuning",
+                    "Profiling",
+                    "Testing",
+                    "Performance Optimization",
+                ],
+            },
+            {
+                "name": "Cloud & DevOps",
+                "weight": 5,
                 "terms": [
                     "AWS",
                     "Docker",
                     "Kubernetes",
-                    "CI/CD",
                     "Jenkins",
                     "Azure",
                     "GCP",
@@ -114,89 +201,14 @@ ROLE_MATCHING_DEFINITIONS = {
                 ],
             },
             {
-                "name": "Database Technologies",
-                "weight": 8,
-                "terms": [
-                    "Oracle",
-                    "PostgreSQL",
-                    "MySQL",
-                    "MongoDB",
-                    "Cassandra",
-                    "Redis",
-                    "NoSQL",
-                ],
-            },
-            {
-                "name": "Integration & Messaging",
-                "weight": 7,
-                "terms": [
-                    "Kafka",
-                    "RabbitMQ",
-                    "ActiveMQ",
-                    "Apache Camel",
-                    "WebSockets",
-                    "gRPC",
-                ],
-            },
-            {
                 "name": "Security",
-                "weight": 7,
+                "weight": 4,
                 "terms": [
                     "OAuth",
                     "JWT",
                     "Spring Security",
-                    "Keycloak",
                     "Authentication",
                     "Authorization",
-                ],
-            },
-            {
-                "name": "Performance & Monitoring",
-                "weight": 6,
-                "terms": [
-                    "JVM Tuning",
-                    "Profiling",
-                    "ELK Stack",
-                    "Prometheus",
-                    "Grafana",
-                    "New Relic",
-                    "AppDynamics",
-                ],
-            },
-            {
-                "name": "Architecture Patterns",
-                "weight": 6,
-                "terms": [
-                    "DDD",
-                    "CQRS",
-                    "Event Sourcing",
-                    "Design Patterns",
-                    "Clean Architecture",
-                    "Hexagonal Architecture",
-                ],
-            },
-            {
-                "name": "Frontend Technologies",
-                "weight": 4,
-                "terms": [
-                    "Angular",
-                    "React",
-                    "TypeScript",
-                    "JavaScript",
-                    "HTML",
-                    "CSS",
-                ],
-            },
-            {
-                "name": "Project Management",
-                "weight": 4,
-                "terms": [
-                    "Agile",
-                    "Scrum",
-                    "Jira",
-                    "Confluence",
-                    "Team Leadership",
-                    "Mentoring",
                 ],
             },
         ],
@@ -234,25 +246,29 @@ Soft Skills:
 
 
 JOB_DESC_FOR_JAVA_DEVELOPER = """
-Senior Java Developer Position
+Role: Senior Software Engineer (Java)
+Location: Thane
+Experience: 4+ years
 
-Experience Required: 3+ years
+Role & Responsibilities:
+- Strong proficiency in Java with a solid understanding of its ecosystem.
+- Good knowledge of Object-Oriented Programming (OOP) concepts and design patterns.
+- Design and implement functional modules using various architectural patterns.
+- Ensure implementation follows the MVC (Model-View-Controller) pattern.
+- Use version control tools (GIT) for merging, branching, and version management.
+- Conduct code reviews to maintain high code quality.
+- Write complex/medium SQL queries efficiently.
+- Expertise in Continuous Integration and Deployment (CI/CD).
 
-Required Technical Skills:
-- Strong proficiency in Java and its ecosystem
-- Sound knowledge of Object-Oriented Programming (OOP) patterns and concepts
-- Experience with different design and architectural patterns
-- Good understanding of MVC pattern and JDBC
-- Version control systems like Git and SVN
-- SQL proficiency
-- Continuous integration expertise
-
-Additional Technical Requirements:
-- Java Server Pages (JSP) and Servlets
-- Spring and Struts frameworks
-- SOAP Web Services and OpenSPML
-- Web technologies: HTML, JavaScript, CSS, jQuery
-- Data formats: XML, JSON
+Technical Skills Required:
+- Java Server Pages (JSP) & Servlets
+- Spring Framework (Spring Boot preferred)
+- Hibernate (ORM Framework)
+- JDBC (Java Database Connectivity)
+- REST Web Services, Open SPML
+- SQL (Basic knowledge is mandatory)
+- HTML, JavaScript, CSS, and jQuery
+- Understanding of XML & JSON
 - Multithreading and synchronization concepts
 """
 

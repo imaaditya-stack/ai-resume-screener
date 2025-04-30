@@ -11,8 +11,10 @@ class PipelineStateManager:
         self.raw_content_of_resume: str = ""
         self.processed_content_of_resume: str = ""
 
-        # Extracted working experience
+        # Extracted Features
         self.extracted_working_exp: float = 0.0
+        self.extracted_email: str = ""
+        self.extracted_contact: str = ""
 
         # Missing mandatory keywords
         self.missing_mandatory_keywords: List[str] = []
